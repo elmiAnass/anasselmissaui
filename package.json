@@ -1,5 +1,5 @@
 {
-  "name": "nextjs",
+  "name": "y",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,13 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.0.4",
     "animejs": "^3.2.1",
     "autoprefixer": "10.4.15",
+    "framer-motion": "^10.16.0",
     "next": "13.4.18",
     "postcss": "8.4.28",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
+    "sass": "^1.66.1",
+    "scrollreveal": "^4.0.9",
     "tailwindcss": "3.3.3"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC"
 }

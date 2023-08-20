@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const Headericons =()=>{
     return(
         <header className="">
@@ -20,12 +22,12 @@ const Headericons =()=>{
               </a>
             </li>
           </ul>
-          <a href="#_" class="absolute right-9  inline-flex items-center justify-center p-2 px-5 py-1 overflow-hidden font-medium text-[#0aff9d] transition duration-300 ease-out border-2 border-[#0aff9d] rounded-md shadow-md group">
+          <a href="./portfolio resume.pdf" class="absolute right-9  inline-flex items-center justify-center p-2 px-5 py-1 overflow-hidden font-medium text-[#0aff9d] transition duration-300 ease-out border-2 border-[#0aff9d] rounded-md shadow-md group">
             <span className="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-[#0aff9d] group-hover:translate-x-0 ease">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
             </span>
             <span className="absolute flex items-center justify-center w-full h-full text-[#0aff9d] transition-all duration-300 transform group-hover:translate-x-full ease font-primary">Mon CV</span>
-            <span className="relative invisible">Mon CV</span>
+            <span className="relative invisible">Mon CV  </span>
           </a>
         </div>
       </header>

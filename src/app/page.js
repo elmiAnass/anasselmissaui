@@ -6,14 +6,17 @@ import Experiance from "./layout/Experiance"
 import Contact from "./layout/Contact"
 export default function Home() {
   return (
-<div >
-<main className="flex">
+<div className=" section">
+<main className="flex ml-12  sm:ml-24">
  <Header/>
 <Section/>
 </main>
+<div className="ml-16 sm:ml-40 ">
 <CardPortfolio/>
 <CardProjects/>
 <Experiance/>
 <Contact/>
+</div>
   </div>)
 }
+

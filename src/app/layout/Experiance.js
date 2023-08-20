@@ -2,8 +2,8 @@
 
 export default function Experiance() {
     return (
-        <div className="head2 mt-36 ml-12 head2">
-            <h1 className="opacity-80 sm:ml-20  text-white font-boldout sm:text-5xl text-3xl  mb-16 "> Expérience<span className="text-[#0aff9d]">.</span> </h1>
+        <div className="head2 mt-36 ml-12 head2" id="ex">
+            <h1 className="opacity-80 sm:ml-4  text-white font-boldout sm:text-5xl text-3xl  mb-16 "> Expérience<span className="text-[#0aff9d]">.</span> </h1>
             <section className="text-gray-600 body-font  ">
                 <div className=" px-5  mx-auto flex  md:flex-row flex-col">
                     <div className="sm:ml-24 flex flex-col md:pr-10 md:mb-0 mb-6 pr-0 w-full md:w-auto md:text-left ">

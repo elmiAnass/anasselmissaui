@@ -2,9 +2,9 @@ import Buttons from "./Langage"
 
 const CardPortfolio = () => {
     return (
-        <main className="head3 sm:mt-[22rem] mt-[9rem] pl-12 sm:ml-16  sm:flex leading-8 ">
+        <main className="head4 sm:mt-[35rem] mt-[17rem] pl-12   sm:flex leading-8" id="propos">
             <div>
-                <h1 className="text-white font-boldout sm:text-5xl text-3xl opacity-80 mb-8 "> propos <span className="text-[#0aff9d]">.</span> </h1>
+                <h1 className="text-white font-boldout sm:text-5xl text-3xl opacity-80 mb-8 "> Propos <span className="text-[#0aff9d]">.</span> </h1>
                 <div className="sm:flex">
                     <div>
                         <p className="text-white  max-w-xl opacity-60 text-md   sm:text-lg leading-8 ">
